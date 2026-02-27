@@ -32,7 +32,6 @@ export default function Home() {
   return (
     <Template>
       <section className="scroll-mt-24" id="agendamento">
-        <Tittle titulo="Agendamentos" />
         <Agendamentos />
       </section>
 

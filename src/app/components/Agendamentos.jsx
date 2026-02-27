@@ -7,6 +7,9 @@ export default function Agendamentos() {
       <div className="mx-auto max-w-4xl rounded-3xl bg-white p-8 md:p-12 shadow-xl ring-1 ring-slate-200">
         <div className="text-center">
 
+        <h2 className="mb-6 text-3xl font-bold text-slate-900 md:text-4xl">
+            Agendamentos
+          </h2>
           <div className="mx-auto mb-6 h-1 w-16 rounded-full bg-[#A9CD43]" />
 
           <p className="mb-4 text-base md:text-lg text-slate-600 leading-relaxed">
