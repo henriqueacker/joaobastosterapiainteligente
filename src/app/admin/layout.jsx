@@ -1,11 +1,19 @@
+<<<<<<< codex/create-admin-environment-and-layout-bobdvl
+import AdminLayout from '@/app/layouts/AdminLayout';
+=======
 import Link from 'next/link';
 import AdminSidebar from './components/AdminSidebar';
+>>>>>>> master
 
 export const metadata = {
   title: 'Admin | Terapia Inteligente',
   description: 'Ambiente administrativo para gerenciamento da clínica.',
 };
 
+<<<<<<< codex/create-admin-environment-and-layout-bobdvl
+export default function RootAdminLayout({ children }) {
+  return <AdminLayout>{children}</AdminLayout>;
+=======
 export default function AdminLayout({ children }) {
   return (
     <div className="min-h-screen bg-slate-50 md:flex">
@@ -31,4 +39,5 @@ export default function AdminLayout({ children }) {
       </div>
     </div>
   );
+>>>>>>> master
 }

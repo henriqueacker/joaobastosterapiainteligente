@@ -1,4 +1,8 @@
+<<<<<<< codex/create-admin-environment-and-layout-bobdvl
+import StatCard from '@/app/components/admin/StatCard';
+=======
 import StatCard from './components/StatCard';
+>>>>>>> master
 
 const proximosAtendimentos = [
   { cliente: 'Mariana Souza', servico: 'Massagem Relaxante', horario: '10:00' },
