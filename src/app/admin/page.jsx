@@ -1,5 +1,6 @@
 import StatCard from '@/app/components/admin/StatCard';
 
+
 const proximosAtendimentos = [
   { cliente: 'Mariana Souza', servico: 'Massagem Relaxante', horario: '10:00' },
   { cliente: 'Rafael Costa', servico: 'Massagem Terapêutica', horario: '11:30' },
