@@ -4,10 +4,11 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const links = [
-  { href: '/admin', label: 'Dashboard' },
+  { href: '/admin', label: 'Dashboard', exact: true },
   { href: '/admin/agendamentos', label: 'Agendamentos' },
   { href: '/admin/clientes', label: 'Clientes' },
   { href: '/admin/servicos', label: 'Serviços' },
+  { href: '/admin/conteudo', label: 'Conteúdo do Site' },
   { href: '/admin/configuracoes', label: 'Configurações' },
 ];
 
@@ -23,7 +24,8 @@ export default function AdminSidebar() {
 
       <nav className="flex flex-col gap-2">
         {links.map((link) => {
-          const isActive = pathname === link.href;
+          const isActive = link.exact ? pathname === link.href : pathname.startsWith(link.href);
+
           return (
             <Link
               key={link.href}
